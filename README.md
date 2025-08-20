@@ -1,12 +1,19 @@
-# React + Vite
+# 📊 Voting App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi **E-Voting** untuk event kampus dengan fitur keamanan berbasis **GPS** dan **Selfie**, serta dilengkapi **AI Insight** untuk analisa hasil voting.  
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Teknologi yang Digunakan
+- **Frontend:** React + Vite + Tailwind CSS (dengan Recharts untuk chart)
+- **Backend:** Node.js + Express.js
+- **Database:** Supabase (PostgreSQL)
+- **Auth:** JWT sederhana (login dengan email & password)
+- **Realtime:** Server-Sent Events (SSE)
+- **AI Insight:** Statistik sederhana (analisa pola hasil vote)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+Npm run dev to start server
+
